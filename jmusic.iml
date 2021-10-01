@@ -8,18 +8,15 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module" module-name="inst" />
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Desktop/Jmusic" />
+          <root url="jar://$MODULE_DIR$/jMusic.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="file://$USER_HOME$/Desktop/Jmusic/inst" />
-        </SOURCES>
-        <jarDirectory url="file://$USER_HOME$/Desktop/Jmusic" recursive="false" />
+        <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="inst" />
   </component>
 </module>

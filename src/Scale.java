@@ -27,6 +27,9 @@ public final class Scale implements JMC{
 
         //write a MIDI file to disk of the score
         Write.midi(s, "ChromaticScale.mid");
+
+        // play phrase in midi
+        Play.midi(phr);
     }
 
 }

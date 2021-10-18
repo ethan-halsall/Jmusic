@@ -11,7 +11,7 @@ public final class Scale implements JMC{
 
     public static void main(String[] args){
         Score s = new Score("JMDemo - Scale");
-        Part p = new Part("Flute", FLUTE, 0);
+        Part p = new Part("Flute", FLUTE, 1);
         Phrase phr = new Phrase("Chromatic scale", 0.0);
 
         // create the scale notes and
@@ -26,10 +26,10 @@ public final class Scale implements JMC{
         s.addPart(p);
 
         //write a MIDI file to disk of the score
-        Write.midi(s, "ChromaticScale.mid");
+        //Write.midi(s, "ChromaticScale.mid");
 
         // play phrase in midi
-        Play.midi(phr);
+        Play.midi(s);
     }
 
 }
